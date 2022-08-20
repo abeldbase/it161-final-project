@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Asharaye | Ethiopian Motivational platform. ኢትዮጵያዊ መነቃቂያ ገጽ!</title>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/template-portal.css" />
+    <link rel="stylesheet" href="css/template-nav.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ኢትዮጵያዊ መነቃቂያ ገጽ</h1>
+      <nav class="topnav" id="myTopnav">
+        <a href="template.html" class="active">Home</a>
+        <a href="podcast.html">Podcast</a>
+        <a href="blog.html">Blog</a>
+        <a href="store.html">Asharaye Store</a>
+        <a href="about.html">About Us</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+          >&#9776;</a
+        >
+      </nav>
+    </header>
+    <div class="wrapper">
+      <h2 class="subheader">Asharaye Store</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+        incidunt amet iusto cumque dolor hic facilis. Explicabo, temporibus!
+        Eius officiis at autem illo quos beatae placeat saepe quas illum
+        dolorem.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+        perferendis asperiores repellat, ipsum provident sapiente quibusdam
+        quasi aliquam? Aliquid consectetur illo nesciunt quasi amet
+        voluptatibus, facilis et atque cupiditate voluptates.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sequi
+        tempora consequatur distinctio dolorem officia illum provident excepturi
+        magnam aut id illo magni fuga voluptate, quas corrupti quod quia
+        dolores.
+      </p>
+      <p></p>
+      <footer>
+        <p>
+          <small
+            >&copy; 2022 by <a href="template-contact.php">Asharaye</a>, All
+            Rights Reserved ~ <a id="html-checker" href="#">Check HTML</a> ~
+            <a id="css-checker" href="#">Check CSS</a>~
+            <a href="https://twitter.com/mistre_nigussie"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+            <a href="https://www.facebook.com/asharaye.myfootprint"
+              ><ion-icon name="logo-facebook"></ion-icon></a
+          ></small>
+        </p>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      //https://tinyurl.com/dynamic-html-checker
+      document
+        .getElementById("html-checker")
+        .setAttribute(
+          "href",
+          "https://validator.w3.org/nu/?doc=" + location.href
+        );
+
+      document
+        .getElementById("css-checker")
+        .setAttribute(
+          "href",
+          "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
+        );
+
+      //manages mobile nav
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
